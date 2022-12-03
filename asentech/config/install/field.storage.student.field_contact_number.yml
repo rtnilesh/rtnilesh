@@ -1,0 +1,21 @@
+uuid: f5eef6a3-1c09-46aa-b99d-24c68d7e7b54
+langcode: en
+status: true
+dependencies:
+  module:
+    - asentech
+id: student.field_contact_number
+field_name: field_contact_number
+entity_type: student
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

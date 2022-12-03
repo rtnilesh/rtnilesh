@@ -1,0 +1,74 @@
+uuid: 63b869bd-9241-4c69-8505-43726a916c2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - asentech.student_type.student
+    - field.field.student.student.field_class
+    - field.field.student.student.field_contact_number
+    - field.field.student.student.field_name
+    - field.field.student.student.field_roll_number1
+id: student.student.default
+targetEntityType: student
+bundle: student
+mode: default
+content:
+  author:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    region: content
+    weight: 1
+    third_party_settings: {  }
+  field_class:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_contact_number:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_name:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_roll_number1:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  isbn:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    region: content
+    weight: 0
+    third_party_settings: {  }
+  price:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    region: content
+    weight: 2
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

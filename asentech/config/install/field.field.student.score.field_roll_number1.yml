@@ -1,0 +1,19 @@
+uuid: 00d677ce-505b-48dd-aecf-f23e130f91e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - asentech.student_type.score
+    - field.storage.student.field_roll_number1
+id: student.score.field_roll_number1
+field_name: field_roll_number1
+entity_type: student
+bundle: score
+label: 'Roll Number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

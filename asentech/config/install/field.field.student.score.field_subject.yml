@@ -1,0 +1,19 @@
+uuid: b14ce525-d0a4-4e15-84c9-4d603598d50a
+langcode: en
+status: true
+dependencies:
+  config:
+    - asentech.student_type.score
+    - field.storage.student.field_subject
+id: student.score.field_subject
+field_name: field_subject
+entity_type: student
+bundle: score
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,6 @@
+name: asentech
+type: module
+description: 'Provides a student entity.'
+package: custom
+core: 8.x
+configure: entity.student_type.collection

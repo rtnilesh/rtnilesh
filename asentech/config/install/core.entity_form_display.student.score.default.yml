@@ -1,0 +1,41 @@
+uuid: d76b4b86-223e-469f-b3c7-640d683e6844
+langcode: en
+status: true
+dependencies:
+  config:
+    - asentech.student_type.score
+    - field.field.student.score.field_roll_number1
+    - field.field.student.score.field_score
+    - field.field.student.score.field_subject
+id: student.score.default
+targetEntityType: student
+bundle: score
+mode: default
+content:
+  field_roll_number1:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_score:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_subject:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

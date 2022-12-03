@@ -1,0 +1,26 @@
+entity.student.view:
+  title: View
+  route_name: entity.student.canonical
+  base_route: entity.student.canonical
+entity.student.edit_form:
+  title: Edit
+  route_name: entity.student.edit_form
+  base_route: entity.student.canonical
+entity.student.delete_form:
+  title: Delete
+  route_name: entity.student.delete_form
+  base_route: entity.student.canonical
+  weight: 10
+entity.student.collection:
+  title: Student
+  route_name: entity.student.collection
+  base_route: system.admin_content
+  weight: 10
+entity.student_type.edit_form:
+  title: Edit
+  route_name: entity.student_type.edit_form
+  base_route: entity.student_type.edit_form
+entity.student_type.collection:
+  title: List
+  route_name: entity.student_type.collection
+  base_route: entity.student_type.collection

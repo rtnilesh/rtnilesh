@@ -1,0 +1,11 @@
+student.type_add:
+  route_name: entity.student_type.add_form
+  title: 'Add student type'
+  appears_on:
+    - entity.student_type.collection
+
+student.add_page:
+  route_name: entity.student.add_page
+  title: 'Add student'
+  appears_on:
+    - entity.student.collection

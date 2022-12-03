@@ -1,0 +1,19 @@
+uuid: 681ee967-cfb6-410e-8591-291e2d144fa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - asentech.student_type.student
+    - field.storage.student.field_roll_number1
+id: student.student.field_roll_number1
+field_name: field_roll_number1
+entity_type: student
+bundle: student
+label: 'Roll Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

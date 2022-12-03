@@ -1,0 +1,21 @@
+uuid: c29d0287-0dab-4ae2-b891-8615254daf6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - asentech
+id: student.field_roll_number1
+field_name: field_roll_number1
+entity_type: student
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

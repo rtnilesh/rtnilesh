@@ -1,0 +1,19 @@
+uuid: f87b844f-6f90-4896-a144-ad59facb6baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - asentech.student_type.score
+    - field.storage.student.field_score
+id: student.score.field_score
+field_name: field_score
+entity_type: student
+bundle: score
+label: Score
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

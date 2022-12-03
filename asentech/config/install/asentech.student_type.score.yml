@@ -1,0 +1,6 @@
+uuid: 30291868-8e02-43da-b50e-ce8dde938462
+langcode: en
+status: true
+dependencies: {  }
+id: score
+label: Score
